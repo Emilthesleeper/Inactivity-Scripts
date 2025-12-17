@@ -1,0 +1,9 @@
+name: Inactivity Scripts
+version: '1.0'
+main: com.emilsleeper.inactivityScripts.InactivityScriptsMain
+api-version: '1.21'
+prefix: InactivityScripts
+load: STARTUP
+authors: [Emil_the_sleeper]
+description: This mod lets you add commands to hotkeys of your choice.  
+website: https://modrinth.com/project/inactivity-scripts
