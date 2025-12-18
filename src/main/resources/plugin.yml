@@ -1,4 +1,4 @@
-name: Inactivity Scripts
+name: InactivityScripts
 version: '1.0'
 main: com.emilsleeper.inactivityScripts.InactivityScriptsMain
 api-version: '1.21'
@@ -7,3 +7,14 @@ load: STARTUP
 authors: [Emil_the_sleeper]
 description: This mod lets you add commands to hotkeys of your choice.  
 website: https://modrinth.com/project/inactivity-scripts
+
+commands:
+  inactivityscripts:
+    description: Main command for InactivityScripts
+    aliases: [is]
+    usage: /<command> reload
+
+permissions:
+  inactivityscripts.reload:
+    description: Allows reloading the plugin configuration
+    default: op

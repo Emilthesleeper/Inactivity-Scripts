@@ -1,0 +1,25 @@
+# Inactivity Scripts Configuration
+# This file contains all configurable settings for the Inactivity Scripts plugin
+
+# Commands
+# Execute these commands in console for the according event, leave the string empty with no " if you want to disable the according event.
+
+commands:
+  use_powershell: false
+  server_start: ""
+  stop_command_override: ""
+  player_count_0: ""
+  player_count_1: ""
+
+# Breakpoints
+#  Set a breakpoint and wait for the command to finish before going on. Recommended for scripts that run at server stop.
+breakpoints:
+  server_start: false
+  stop_command_override: true
+  player_count_0: false
+  player_count_1: false
+
+# Delay
+#  Set a delay in seconds before running the command. No floats allowed, no integers.
+delay:
+  stop_command_override: 7
